@@ -1,19 +1,20 @@
 file Watlow_PM_IOC_Alarms.template
 {
-pattern	{  s, ta,      ss}
-		{, SE, Watlow}
+pattern	
+{PREFIX}
+{"XF:07BM-ES{Watlow:1}"}
 }
 
 file save_restoreStatus.db
 {
 pattern {P}
-        {:CS:Watlow:}
+        {"XF:07BM-ES{Watlow:1}"}
 }
 
 file ioc_sns.db
 {
 pattern {IOCNAME}
-        {:CS:Watlow}
+        {"XF:07BM-ES{Watlow:1}"}
 }
 
 

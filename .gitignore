@@ -1,0 +1,8 @@
+db/
+dbd/
+bin/
+lib/
+include/
+O.*/
+*.swp
+.vscode/

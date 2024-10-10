@@ -19,9 +19,9 @@ DB += pid_set_window.template
 DB += Update_PID_Set.template
 
 # Only process the templates below as required by the application.
-#DB += Watlow_PM_Analog_Input.template
-#DB += Watlow_PM_Linearization.template
-#DB += Watlow_PM_Process_Value.template
+DB += Watlow_PM_Analog_Input.template
+DB += Watlow_PM_Linearization.template
+DB += Watlow_PM_Process_Value.template
 
 
 # If <anyname>.db template is not named <anyname>*.template add
