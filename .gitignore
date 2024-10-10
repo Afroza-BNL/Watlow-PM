@@ -6,3 +6,4 @@ include/
 O.*/
 *.swp
 .vscode/
+envPaths
